@@ -1,0 +1,23 @@
+1. [] = empty list
+2. spam=[2,4,6,8,10] , assign 3rd value => hello, spam[2]='hello' 
+
+spam= ['a','b','c','d'], 
+3. spam[int(int('3' * 2) / 11)] => 'd'
+4. spam[-1] = 'd'
+5. spam[:2]=['a','b']
+
+bacon =[3.14,'cat',11,'cat','True']
+6.bacon.index('cat') = 3
+7.bacon.append(99) => [3.14,'cat',11,'cat','True',99]
+8.bacon.remove('cat') =>[3.14,11,'cat','True',99]
+
+9. concatenation operator for list: +
+   replication operator for list: * 
+10. append() vs insert() , append - adds to the list but at the end of the list, insert also extends the list but has the option to specify the insertion point.
+11. 2 methods to remove items from list: list.remove(), list.pop()
+12. string values and list values are identical in a sense that they are iterable ie they can be looped over numerically.
+13. tuples values cannot be changed while list values can be changed. tuple cannot be modified while list can be modified.
+14. (42)
+15. list variable to tuple-> tuple(list[iter]) , tuple to list -> list(tuple())
+16. string/int/bool/float according to the type of variables.
+17. copy.copy() vs copy.deepcopy() -> copy.copy() copies the variable as the same location, there is no change in the address whereas in deepcopy, the location or address of copied variable changes so it gets copied at two places. 
